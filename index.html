@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d988222789.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>invoiceCreator</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Invoice creator</h1>
+        <p>Thanks for choosing GoodCorp, LLC!</p>
+    </div>
+    <div class="bodyy">
+        <div id="services-container">
+            <button class="btn" id="service1">Wash Car: $10</button>
+            <button class="btn" id="service2">Mow Lawn: $20</button>
+            <button class="btn" id="service3">Pull Weeds: $30</button>
+        </div>
+        <div class="container">
+            <p>TASK</p>
+            <p>TOTAL</p>
+        </div>
+        <div class="tasks" id="container1"></div>
+        <hr>
+        <div class="container" id="container2">
+            <div id="notes">
+                <p>NOTES</p>
+                <p id="note"></p>
+            </div>
+            <div id="total">
+                <p>TOTAL AMOUNT</p>
+                <p id="total-price">$0</p>
+            </div>
+        </div>
+        <div class="container-btn">
+            <button id="rest" onclick="reset()"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp; Send invoice</button>
+        </div>
+    </div>
+<script src="scripts.js"></script>  
+</body>
+</html>
